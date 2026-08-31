@@ -21,6 +21,8 @@ QuickApp is an opinionated Angular 21 + ASP.NET Core 10 starter that solves the 
 
 [LIVE DEMO](https://quickapp-standard.ebenmonney.com) | [Video Demo](https://www.youtube.com/watch?v=Wuh7NIZ96jA) | [📺 YouTube Channel](https://www.youtube.com/@EbenMonney)
 
+> **Building something new?** QuickApp's successor is **[NetForge](https://netforge.ebenmonney.com)** — same philosophy, current stack: .NET 10 with **React 19 *or* Angular 22**, your choice of SQLite / PostgreSQL / SQL Server, and multi-tenancy, audit trails, webhooks and a permissions UI in the box. [See what changed ↓](#where-quickapp-went-next-netforge)
+
 ---
 
 ## Why QuickApp Exists (in the Age of AI)
@@ -304,22 +306,55 @@ The goal is simple:
 
 ---
 
+## Where QuickApp Went Next: **NetForge**
+
+QuickApp proved the idea: give AI a known-good foundation and it stops guessing. **[NetForge](https://netforge.ebenmonney.com)** is that idea rebuilt from scratch for the current stack — same philosophy, same author, ten years of QuickApp lessons baked in.
+
+| | QuickApp | NetForge |
+|---|---|---|
+| **Backend** | ASP.NET Core 10 + Controllers | ASP.NET Core 10 + Minimal APIs, vertical slices |
+| **Frontend** | Angular 21 | **React 19 or Angular 22** - you pick at setup |
+| **Database** | SQL Server | **SQLite, PostgreSQL or SQL Server** - you pick at setup |
+| **Setup** | Clone and configure by hand | Configure in a browser, download a ready project |
+
+**What NetForge adds beyond the stack refresh:** multi-tenancy, a permissions system with a real admin UI, audit trails, background jobs, webhooks, file uploads, global search, a drag-and-drop dashboard, i18n with RTL, PWA, and a component library that looks finished on first run.
+
+**Same guarantee that made QuickApp work, held to a higher bar:** every feature is built so **AI can extend it from a single prompt** *and* **a human can review the result without spelunking**. Those two are inseparable — code an AI can safely change is code a person can safely read.
+
+### Three ways in
+
+- **[Configure and download](https://netforge.ebenmonney.com)** - pick your frontend, database and features; get a working project. This is the QuickApp workflow, minus the manual wiring.
+- **[Describe it and let AI build it](https://ebenmonney.com/build)** - write a paragraph about your app, get a running preview you can open in a browser.
+- **Editor extensions** - [VS Code](https://marketplace.visualstudio.com/items?itemName=adentum.netforge) or [Visual Studio](https://marketplace.visualstudio.com/items?itemName=adentum.netforge-vs), or `dotnet new install NetForge.Templates` for the free tier.
+
+### AI builds it. A human's got your back.
+
+Every AI build is backed by a real senior developer — free, on every plan. If the AI gets something wrong, you are not left debugging a black box on your own.
+
+### No lock-in, whichever way you start
+
+What you get is a **standard ASP.NET Core + React/Angular application** on the database you chose. Download it and host it anywhere, self-host it in-house, or let us host it. No proprietary runtime, no framework you can only run on our infrastructure, no way for us to hold your project hostage. You own the code the moment you have it — exactly like QuickApp.
+
+**QuickApp is not going anywhere** — it stays MIT-licensed and maintained. NetForge is where the new work happens.
+
+> **[netforge.ebenmonney.com](https://netforge.ebenmonney.com)** · [Live demo](https://demo.netforge.ebenmonney.com) · [Angular demo](https://demo-angular.netforge.ebenmonney.com) · [Docs](https://docs.netforge.ebenmonney.com)
+
+---
+
 ## Additional Resources
 
 ### Premium Versions
-- [QuickApp PRO](https://www.ebenmonney.com/product/quickapp-pro) | [Live Demo](http://quickapp-pro.ebenmonney.com/)
-- [QuickApp STANDARD](https://www.ebenmonney.com/product/quickapp-standard) | [Live Demo](http://quickapp-standard.ebenmonney.com/)
+- [QuickApp PRO](https://ebenmonney.com/store) | [Live Demo](https://quickapp-pro.ebenmonney.com/)
+- [QuickApp STANDARD](https://ebenmonney.com/store) | [Live Demo](https://quickapp-standard.ebenmonney.com/)
 
 ### Documentation
-- [QuickApp Overview](https://www.ebenmonney.com/quickapp)
 - [📺 YouTube Channel - Tutorials & Walkthroughs](https://www.youtube.com/@EbenMonney) - Learn QuickApp through video tutorials
 - [ASP.NET Core Documentation](https://go.microsoft.com/fwlink/?LinkId=518008)
 - [Entity Framework Core](https://docs.microsoft.com/en-us/ef/#pivot=efcore)
 - [Angular Documentation](https://angular.dev/overview)
 
 ### Support
-- [Support Forum](https://www.ebenmonney.com/support/forum/product-support)
-- [GitHub Issues](https://github.com/emonney/QuickApp/issues)
+- [GitHub Issues](https://github.com/emonney/QuickApp/issues) - bug reports, questions and feature requests
 - [Become a Sponsor](https://github.com/sponsors/emonney) - Get access to PRO/STANDARD versions and priority support
 
 ---
