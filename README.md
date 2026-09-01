@@ -337,7 +337,7 @@ What you get is a **standard ASP.NET Core + React/Angular application** on the d
 
 **QuickApp is not going anywhere** — it stays MIT-licensed and maintained. NetForge is where the new work happens.
 
-> **[netforge.ebenmonney.com](https://netforge.ebenmonney.com)** · [Live demo](https://demo.netforge.ebenmonney.com) · [Angular demo](https://demo-angular.netforge.ebenmonney.com) · [Docs](https://docs.netforge.ebenmonney.com)
+> **[netforge.ebenmonney.com](https://netforge.ebenmonney.com)** · [Live demo](https://netforge-react.ebenmonney.com) · [Angular demo](https://netforge-angular.ebenmonney.com) · [Docs](https://docs.netforge.ebenmonney.com)
 
 ---
 
